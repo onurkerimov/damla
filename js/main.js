@@ -15,7 +15,7 @@ app.stop()
 
 // Load stuff
 PIXI.loader
-    .add("../assets/sheet.json")
+    .add("https://onurkerimov.github.io/damla/assets/sheet.json")
     .load(main)
 
 function main() {
@@ -63,7 +63,7 @@ function main() {
 
 
     // Get a reference to the sprite sheet we've just loaded:
-    let sheet = PIXI.loader.resources["../assets/sheet.json"].spritesheet
+    let sheet = PIXI.loader.resources["https://onurkerimov.github.io/damla/assets/sheet.json"].spritesheet
 
     // Get frames
     let frames = []
