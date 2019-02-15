@@ -1,0 +1,24 @@
+{
+  "name": "pixi-rotate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "http-server -o"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onurkerimov/damla.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onurkerimov/damla/issues"
+  },
+  "homepage": "https://github.com/onurkerimov/damla#readme",
+  "dependencies": {
+    "@pixi/filter-advanced-bloom": "^2.7.0",
+    "pixi.js": "^4.8.5"
+  }
+}
